@@ -7,9 +7,7 @@ export default function searchbar(props) {
     <div className={styles.firstDiv}>
       <div className={styles.secondDiv}>
         <div className={styles.thirdDiv}>
-          <div className={styles.fourthDiv}>
-            <h4 className={styles.headingFour}>Find Gigs</h4>
-          </div>
+            <h4 className={styles.styleHeading}>Find Gigs</h4>
         </div>
             <form autocomplete="off" novalidate="" className={styles.formStyling}>
               <div className={styles.fifthDiv} display="block">

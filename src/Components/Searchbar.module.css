@@ -122,7 +122,7 @@ fieldset {
     -ms-flex-align: flex-start;
     align-items: flex-start;
 }
-.fourthDiv {
+.styleHeading {
     box-sizing: border-box;
     margin: 0;
     -webkit-flex-direction: row;
@@ -130,8 +130,6 @@ fieldset {
     flex-direction: row;
     padding-left: 24px;
     padding-top: 24px;
-}
-.headingFour {
     margin: 0;
         margin-top: 0px;
         margin-right: 0px;
