@@ -1,0 +1,106 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+div {
+    display: block;
+}
+footer {
+    display: block;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.footerStyling {
+    margin: 10vh 0 20vh 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 899.95px){
+    .firstDiv {
+        margin: 0px 25px;
+        margin-top: 0px;
+        margin-right: 25px;
+        margin-bottom: 0px;
+        margin-left: 25px;
+    }
+}
+.firstDiv {
+    margin: 0px 100px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+@media (max-width: 899.95px) {
+    .secondDiv
+    {margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;}
+}
+.secondDiv {
+    margin: 0 10vw 30px 0px;
+    margin-top: 0px;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.headingOne {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 25px;
+}
+.firstSpan {
+    margin: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.thirdDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourthDiv {
+    padding-right: 100px;
+}
+.headingTwo {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.unorderedList {
+    padding: 0 2px;
+    font-size: 1.1rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+.listItem {
+    color: #696969;
+    text-decoration: none;
+}

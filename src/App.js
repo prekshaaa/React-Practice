@@ -1,14 +1,14 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import Textform from './Components/TextForm';
-
+import Searchbar from './Components/Searchbar';
+import Footer from './Components/Footer';
 function App() {
   return (
     <>
-    <Navbar title="Gigvistas" navItemOne="Blog" navItemTwo="Services" navItemThree="How It Works" navItemFour="About Us" navItemFive="Login" navItemSix="Sign Up"/>
-    <Textform/>
+    <Navbar/>
+    <Searchbar/>
+    <Footer/>
     </>
   );
 }
-
 export default App;

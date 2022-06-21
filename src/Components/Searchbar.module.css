@@ -1,0 +1,509 @@
+form {
+    display: block;
+    margin-top: 0em;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+button {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: "buttontext";
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+    border-style: groove;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    border-color: rgb(192, 192, 192);
+        border-top-color: rgb(192, 192, 192);
+        border-right-color: rgb(192, 192, 192);
+        border-bottom-color: rgb(192, 192, 192);
+        border-left-color: rgb(192, 192, 192);
+    border-image: initial;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+        border-top-width: initial;
+        border-right-width: initial;
+        border-bottom-width: initial;
+        border-left-width: initial;
+    border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+    border-color: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-bottom-color: initial;
+        border-left-color: initial;
+    border-image: initial;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+}
+
+@media (max-width: 899.95px){
+    .firstDiv{
+        padding-top: 250px;
+    }
+}
+@media (max-width: 899.95px){
+    .firstDiv {
+        padding-top: 250px;
+    }
+}
+.firstDiv {
+    width: 100%;
+    background: linear-gradient(to bottom, #E6F1FC, #FFFFFF);
+    min-height: 61vh;
+    padding-top: 150px;
+}
+.secondDiv {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.thirdDiv{
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left: -24px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+}
+.css-1fbshfd>.MuiGrid-item {
+    padding-left: 24px;
+}
+.css-1fbshfd>.MuiGrid-item {
+    padding-top: 24px;
+}
+.fourthDiv {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.headingFour {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0.35em;
+        margin-left: 0px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 1.235;
+    margin-bottom: 0.35em;
+}
+.formStyling {
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fifthDiv {
+    background-color: white;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    border: 0;
+        border-top-color: initial;
+        border-top-style: initial;
+        border-top-width: 0px;
+        border-right-color: initial;
+        border-right-style: initial;
+        border-right-width: 0px;
+        border-bottom-color: initial;
+        border-bottom-style: initial;
+        border-bottom-width: 0px;
+        border-left-color: initial;
+        border-left-style: initial;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    vertical-align: top;
+    width: 100%;
+}
+.sixthDiv {
+    font-family: Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    color: #002944;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.seventhDiv {
+    display: flex;
+    height: 0.01em;
+    max-height: 2em;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.54);
+    margin-right: 8px;
+}
+element.style {
+    display: grid;
+    place-items: center;
+    padding-right: 5px;
+}
+.inputStyling:invalid {
+    box-shadow: none
+}
+.inputStyling {
+    font: inherit;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-variant-east-asian: inherit;
+        font-weight: inherit;
+        font-stretch: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-family: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+        padding-top: 16.5px;
+        padding-right: 0;
+        padding-bottom: 16.5px;
+        padding-left: 0;
+    border: 0;
+        border-top-color: initial;
+        border-top-style: initial;
+        border-top-width: 0px;
+        border-right-color: initial;
+        border-right-style: initial;
+        border-right-width: 0px;
+        border-bottom-color: initial;
+        border-bottom-style: initial;
+        border-bottom-width: 0px;
+        border-left-color: initial;
+        border-left-style: initial;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    box-sizing: content-box;
+    background: none;
+        background-image: none;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+    height: 1.4375em;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+        padding-top: 16.5px;
+        padding-right: 0;
+        padding-bottom: 16.5px;
+        padding-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+}
+.eigthDiv{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 0.01em;
+    max-height: 2em;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 8px;
+}
+.buttonStyling {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+        outline-color: initial;
+        outline-style: initial;
+        outline-width: 0px;
+    border: 0px;
+        border-top-color: initial;
+        border-top-style: initial;
+        border-top-width: 0px;
+        border-right-color: initial;
+        border-right-style: initial;
+        border-right-width: 0px;
+        border-bottom-color: initial;
+        border-bottom-style: initial;
+        border-bottom-width: 0px;
+        border-left-color: initial;
+        border-left-style: initial;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+        padding-top: 6px;
+        padding-right: 16px;
+        padding-bottom: 6px;
+        padding-left: 16px;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition-property: background-color, box-shadow, border-color, color;
+        transition-duration: 250ms, 250ms, 250ms, 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0ms, 0ms, 0ms, 0ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 114, 190);
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+.spanStyling {
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        border-radius: inherit;
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
+            border-bottom-right-radius: inherit;
+            border-bottom-left-radius: inherit;
+}
+.fieldsetStyling {
+    text-align: left;
+    position: absolute;
+    inset: -5px 0px 0px;
+        top: -5px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 0px 8px;
+        padding-top: 0px;
+        padding-right: 8px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+    pointer-events: none;
+    border-radius: inherit;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+        border-bottom-left-radius: inherit;
+    border-style: solid;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+    border-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    min-width: 0%;
+    border-color: rgba(0, 0, 0, 0.23);
+        border-top-color: rgba(0, 0, 0, 0.23);
+        border-right-color: rgba(0, 0, 0, 0.23);
+        border-bottom-color: rgba(0, 0, 0, 0.23);
+        border-left-color: rgba(0, 0, 0, 0.23);
+}
+.legendStyling {
+    float: unset;
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    padding: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        transition-property: width;
+        transition-duration: 150ms;
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        
+}
