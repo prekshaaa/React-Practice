@@ -76,40 +76,8 @@ fieldset {
         border-image-outset: initial;
         border-image-repeat: initial;
 }
-legend {
-    display: block;
-    padding-inline-start: 2px;
-    padding-inline-end: 2px;
-    border-width: initial;
-        border-top-width: initial;
-        border-right-width: initial;
-        border-bottom-width: initial;
-        border-left-width: initial;
-    border-style: none;
-        border-top-style: none;
-        border-right-style: none;
-        border-bottom-style: none;
-        border-left-style: none;
-    border-color: initial;
-        border-top-color: initial;
-        border-right-color: initial;
-        border-bottom-color: initial;
-        border-left-color: initial;
-    border-image: initial;
-        border-image-source: initial;
-        border-image-slice: initial;
-        border-image-width: initial;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-}
-
 @media (max-width: 899.95px){
     .firstDiv{
-        padding-top: 250px;
-    }
-}
-@media (max-width: 899.95px){
-    .firstDiv {
         padding-top: 250px;
     }
 }
@@ -153,12 +121,6 @@ legend {
     -webkit-box-align: flex-start;
     -ms-flex-align: flex-start;
     align-items: flex-start;
-}
-.css-1fbshfd>.MuiGrid-item {
-    padding-left: 24px;
-}
-.css-1fbshfd>.MuiGrid-item {
-    padding-top: 24px;
 }
 .fourthDiv {
     box-sizing: border-box;
@@ -255,21 +217,6 @@ legend {
         border-bottom-left-radius: 4px;
     padding-left: 14px;
     padding-right: 14px;
-}
-.seventhDiv {
-    display: flex;
-    height: 0.01em;
-    max-height: 2em;
-    -webkit-box-align: center;
-    align-items: center;
-    white-space: nowrap;
-    color: rgba(0, 0, 0, 0.54);
-    margin-right: 8px;
-}
-element.style {
-    display: grid;
-    place-items: center;
-    padding-right: 5px;
 }
 .inputStyling:invalid {
     box-shadow: none
@@ -428,24 +375,6 @@ element.style {
     background-color: rgb(0, 114, 190);
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
-.spanStyling {
-    overflow: hidden;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    pointer-events: none;
-    position: absolute;
-    z-index: 0;
-    inset: 0px;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        border-radius: inherit;
-            border-top-left-radius: inherit;
-            border-top-right-radius: inherit;
-            border-bottom-right-radius: inherit;
-            border-bottom-left-radius: inherit;
-}
 .fieldsetStyling {
     text-align: left;
     position: absolute;
@@ -489,21 +418,4 @@ element.style {
         border-right-color: rgba(0, 0, 0, 0.23);
         border-bottom-color: rgba(0, 0, 0, 0.23);
         border-left-color: rgba(0, 0, 0, 0.23);
-}
-.legendStyling {
-    float: unset;
-    overflow: hidden;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    padding: 0px;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    line-height: 11px;
-    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
-        transition-property: width;
-        transition-duration: 150ms;
-        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-        
 }
