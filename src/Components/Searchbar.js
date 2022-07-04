@@ -1,38 +1,38 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import styles from "./Searchbar.module.css";
-export default function searchbar(props) {
+import { useState } from 'react';
+
+export default function Searchbar(props){
+  const [query, setQuery] = useState("");
+  
   return (
     <>
-    <div className={styles.firstDiv}>
-      <div className={styles.secondDiv}>
-        <div className={styles.thirdDiv}>
-            <h4 className={styles.styleHeading}>Find Gigs</h4>
-        </div>
-            <form autocomplete="off" novalidate="" className={styles.formStyling}>
-              <div className={styles.fifthDiv} display="block">
-                <div className={styles.sixthDiv}>
-                  <input type="text" aria-invalid="false" id="searchTerm" name="searchTerm" placeholder={props.searchBarText} required="" value="" className={styles.inputStyling}/>
-                  <div className={styles.eighthDiv}>
-                    <button className={styles.buttonStyling} tabindex="0" type="button">{props.buttonText}<span className={styles.spanStyling}></span>
-                    </button>
-                  </div>
-                  <fieldset aria-hidden="true" className={styles.fieldsetStyling}></fieldset>
-                </div>
-              </div>
-            </form>
+    <div className={styles.container}>
+      <div className={styles.headingContainer}>
+        <h4 className={styles.styleHeading}>Find Gigs</h4>
       </div>
+      <form autocomplete="off" novalidate="" className={styles.formStyling}>
+        <div className={styles.searchbarContainer} display="block">
+          <div className={styles.inputContainer}>
+            <input type="text" id="searchTerm" name="searchTerm" placeholder={props.searchBarText} required className={styles.inputStyling} query= {query} onKeyPress={(event) => { if (event.key === "Enter") {setQuery(event.target.value)}}}/>
+              <button className={styles.styleButton} tabindex="0" type="button">{props.buttonText}
+              </button>
+          </div>
+          <fieldset aria-hidden="true" className={styles.fieldsetStyling}></fieldset>
+        </div>
+      </form>
+      <h5 className = {styles.noOfResults}> No Gigs Found.</h5>
     </div>
     </>
-  )
-}
+  );
+};
 
-searchbar.propTypes = {
+Searchbar.propTypes = {
   SearchBarText: propTypes.string,
   buttonText: propTypes.string
 };
-
-searchbar.defaultProps = {
+Searchbar.defaultProps = {
   SearchBarText: "Eg. software developers, developer, customer services",
   buttonText: "Search Gigs"
 };
